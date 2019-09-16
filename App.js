@@ -1,11 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
-
 import React, {Fragment, Component} from 'react';
 import {
   SafeAreaView,
@@ -18,15 +10,18 @@ import {
 
 export default function App() {
   return (
-    <View style={{flex: 1, justifyContent: 'center'}}>
-      <Text>Hello World</Text>
+    <View style={styles.scrollView}>
+      <Text style={{color: "white"}}>Hello World</Text>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   scrollView: {
-    backgroundColor: 'tomato',
+    backgroundColor: '#002663',
+    color: "white",
+    flex: 1,
+    justifyContent: 'center',
   },
   engine: {
     position: 'absolute',
