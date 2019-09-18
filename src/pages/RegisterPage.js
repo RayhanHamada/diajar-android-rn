@@ -9,10 +9,13 @@ import {
 } from 'react-native';
 
 
-export default function RegisterPage()
-{
+export default RegisterPage = props => {
 
     return (
         null
     );
 }
+
+const styles = StyleSheet.create({
+
+})
